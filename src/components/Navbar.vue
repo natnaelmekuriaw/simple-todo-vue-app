@@ -1,6 +1,6 @@
 <template>
   <nav app >
-    <v-toolbar flat app class="grey  lighten-4">
+    <v-app-bar app flat  class="grey  lighten-4">
         <v-app-bar-nav-icon class="grey--text" @click="draw = !draw">
         </v-app-bar-nav-icon>
         <v-app-bar-title class="text-uppercase grey--text" app>
@@ -40,7 +40,7 @@
             <span>Sign Out</span>
             <v-icon right >mdi-logout-variant</v-icon>
         </v-btn>
-    </v-toolbar>
+    </v-app-bar>
 
      <v-navigation-drawer  app v-model="draw" class="primary">
       <v-layout column align-center>
